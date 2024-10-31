@@ -1,0 +1,175 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(122, 193, 16, 0.913);
+    height: 40px;
+    width: 100%;
+}
+
+.first-cantaner{
+    display: flex;
+    padding-top: 5PX;
+    
+    color: aliceblue;
+}
+
+.namber{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    font-size: small;
+
+}
+
+.namber h5{
+    padding-left: 0px;
+    padding-top: 5px;
+}
+
+.icons img{
+    width: 22px;
+    height: 22px;
+    border-radius: 20px;
+}
+
+.section-one{
+    background-image: url(background.jpg);
+    height: 75vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.opacity{
+    background-color: rgba(0, 0, 0, 0.603);
+    height: 75vh;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: aliceblue;
+    padding-top: 30px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manu{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.manu a{
+    list-style: none;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: xx-small;
+}
+.manu a:hover{
+    color: rgb(166, 222, 82);
+}
+
+#click{
+    color:  white;
+    border-bottom: 0px solid  white;
+    padding-bottom:0px;
+}
+
+.heading-first{
+    padding-top: 30px;
+    padding-left: 20%;
+    color:rgb(166, 222, 82);
+    text-transform: uppercase;
+    font-size:xx-small;
+    font-weight: bolder;
+
+}
+.heading-two h1{
+    font-weight: 1800;
+    color: rgb(255, 255, 255);
+    padding-left: 20%;
+    padding-top: 15px;
+    font-size: small;
+    letter-spacing: 1px;
+}
+
+.paragraph{
+    text-align: start;
+}
+
+.paragraph p{
+    color: white;
+    padding-top: 30px;
+    font-size: small;
+    
+}
+
+.btn{
+    padding-left: 20%;
+    padding-top: 20px;
+
+}
+.btn button{
+    background-color: rgb(138, 184, 68);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: xx-small;
+}
+
+.footer{
+    background-color: rgb(134, 181, 63);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-first h3{
+    color: white;
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-size: small;
+    text-align: center;
+
+}
+
+
+.footer-first p{
+    color: white;
+    padding-top: 10px;
+    font-size: x-small;
+    text-align: center;
+}
+
+.btn-two{
+    padding-top: 10px;
+}
+
+.btn-two button{
+    background-color: rgb(139, 184, 73);
+    color: white;
+    padding: 5px 15px;
+    border:  1px solid white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: xx-small;
+    font-weight: 700;
+}
